@@ -8,7 +8,10 @@ public void setup(){
 public void draw(){
   fill=255;
   fill(fill);
-  base=100;
+  base=mouseX;
+  if(base>400)
+  hleft(400,400,300);
+  else
   h(400,400,300);
 }
 public void h(int x, int y, int d){
