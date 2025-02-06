@@ -8,7 +8,7 @@ public void setup(){
 public void draw(){
   fill=255;
   fill(fill);
-  base=mouseX;
+  base=100;
   if(base>400)
   hleft(400,400,300);
   else
