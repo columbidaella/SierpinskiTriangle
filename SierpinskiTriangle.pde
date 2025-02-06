@@ -1,4 +1,4 @@
-public void spublic int base;
+public int base;
 public int fill;
 public void setup(){
   size(800,800);
