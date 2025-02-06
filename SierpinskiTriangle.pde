@@ -2,6 +2,7 @@ public int base;
 public int fill;
 public void setup(){
   size(800,800);
+background(0);
 }
 public void draw(){
   base=mouseX;
